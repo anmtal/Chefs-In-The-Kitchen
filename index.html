@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chefs in the Kitchen | Private Chef Service in Burlington, ON</title>
+  <meta name="description" content="Chefs in the Kitchen brings a professional private chef into your home. We shop, cook a restaurant-quality meal, and clean up — for date nights, dinner parties and weekly meal prep across Burlington and the GTA." />
+  <meta name="theme-color" content="#141416" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Chefs in the Kitchen" />
+  <meta property="og:title" content="Chefs in the Kitchen | Private Chef Service" />
+  <meta property="og:description" content="A professional private chef, in your kitchen. We shop, cook & clean up — restaurant-quality dining at home." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500..700;1,500..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "additionalType": "https://schema.org/Chef",
+    "name": "Chefs in the Kitchen",
+    "description": "Private chef service — a professional chef shops, cooks a restaurant-quality meal in your home, and cleans up.",
+    "priceRange": "$$$",
+    "email": "hello@chefsinthekitchen.ca",
+    "url": "https://chefsinthekitchen.ca",
+    "areaServed": ["Burlington", "Oakville", "Hamilton", "Greater Toronto Area"],
+    "sameAs": ["https://www.facebook.com/chefsinthekitchen.official/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Chefs in the Kitchen home">
+        <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" class="brand-logo" />
+        <span class="brand-name"><b>Chefs in the Kitchen</b><small>Private Chef · Burlington</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="book.html">Book</a>
+        <a href="book.html#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="mailto:hello@chefsinthekitchen.ca" class="nav-phone"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+        <a href="book.html#quote" class="btn btn--sm">Book Your Chef</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE DRAWER ============ -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="mobile-drawer" id="drawer" aria-label="Mobile menu">
+    <div class="drawer-head">
+      <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" style="height:44px" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="services.html">Services <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="book.html">Book <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="book.html#faq">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+    </nav>
+    <div class="drawer-cta">
+      <a href="book.html#quote" class="btn btn--block">Book Your Chef</a>
+      <a href="services.html" class="btn btn--ghost btn--block">View Services</a>
+    </div>
+    <div class="drawer-contact">
+      <a href="mailto:hello@chefsinthekitchen.ca"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+      <span><i class="fa-solid fa-location-dot"></i> Burlington &amp; the GTA</span>
+      <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i> Chefs in the Kitchen</a>
+    </div>
+  </aside>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge reveal"><span class="dot"></span> Private Chef Service · Burlington, ON</span>
+        <h1 class="hero-title reveal d1">A private chef, <em>in your kitchen</em></h1>
+        <p class="hero-sub reveal d2">We bring the restaurant to you. A professional chef plans your menu, shops for fresh ingredients, cooks a stunning meal in your home — and leaves the kitchen spotless.</p>
+        <div class="hero-ctas reveal d3">
+          <a href="book.html#quote" class="btn btn--lg"><i class="fa-solid fa-utensils"></i> Book Your Chef</a>
+          <a href="services.html" class="btn btn--ghost btn--lg">Explore Services</a>
+        </div>
+        <div class="hero-meta reveal d4">
+          <div class="m"><b>5.0★</b><span>Client rating</span></div>
+          <div class="divider"></div>
+          <div class="m"><b>100%</b><span>Cooked in your home</span></div>
+          <div class="divider"></div>
+          <div class="m"><b>Zero</b><span>Cleanup for you</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" id="heroVisual">
+        <div class="hero-frame">
+          <img src="assets/dishes/plated-steak.svg" alt="Restaurant-quality plated dish" class="hero-plate" />
+          <div class="hero-tag t1"><i class="fa-solid fa-star"></i><div><b>5.0 rating</b><small>Loved by clients</small></div></div>
+          <div class="hero-tag t2"><i class="fa-solid fa-broom"></i><div><b>We clean up</b><small>You just enjoy</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">In-Home Dining <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Dinner Parties <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Date Nights <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Weekly Meal Prep <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Special Occasions <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">In-Home Dining <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Dinner Parties <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Date Nights <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Weekly Meal Prep <i class="fa-solid fa-circle"></i></span>
+      <span class="marquee-item">Special Occasions <i class="fa-solid fa-circle"></i></span>
+    </div>
+  </div>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">How It Works</span>
+      <h2 class="section-title reveal d1">Fine dining, <em>without leaving home</em></h2>
+      <p class="section-lead reveal d2">Three simple steps between you and an unforgettable meal.</p>
+    </div>
+    <div class="container">
+      <div class="steps">
+        <div class="step reveal d1"><div class="step-num">1</div><i class="fa-solid fa-book-open step-ic"></i><h3>Choose &amp; customize</h3><p>Pick your experience and we'll craft a menu around your tastes, occasion and dietary needs.</p></div>
+        <div class="step reveal d2"><div class="step-num">2</div><i class="fa-solid fa-basket-shopping step-ic"></i><h3>We shop &amp; prep</h3><p>Your chef sources fresh, quality ingredients and arrives ready to cook in your kitchen.</p></div>
+        <div class="step reveal d3"><div class="step-num">3</div><i class="fa-solid fa-champagne-glasses step-ic"></i><h3>Cook, serve &amp; clean</h3><p>Enjoy a restaurant-quality meal at your table — we handle the cooking and the cleanup.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section--alt" id="services">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Our Experiences</span>
+      <h2 class="section-title reveal d1">Three ways to <em>dine in</em></h2>
+      <p class="section-lead reveal d2">Whatever the occasion, there's a chef experience to match.</p>
+    </div>
+    <div class="container">
+      <div class="dish-grid">
+        <article class="dish-card reveal d1">
+          <div class="dish-media"><span class="dish-tag">Popular</span><img src="assets/dishes/cloche.svg" alt="In-home dinner" /></div>
+          <h3 class="dish-name">In-Home Dinner</h3>
+          <p class="dish-es">Date nights &amp; family meals</p>
+          <p class="dish-desc">A multi-course dinner cooked and plated in your home — the perfect intimate restaurant experience.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-user-group"></i> 2+ guests</span><a href="services.html" class="link-arrow">Details <i class="fa-solid fa-arrow-right"></i></a></div>
+        </article>
+        <article class="dish-card reveal d2">
+          <div class="dish-media"><span class="dish-tag">Signature</span><img src="assets/dishes/plated-steak.svg" alt="Dinner party" /></div>
+          <h3 class="dish-name">Dinner Party</h3>
+          <p class="dish-es">Impress your guests</p>
+          <p class="dish-desc">Host effortlessly while your chef handles a curated menu, service and cleanup for your gathering.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-users"></i> 6+ guests</span><a href="services.html" class="link-arrow">Details <i class="fa-solid fa-arrow-right"></i></a></div>
+        </article>
+        <article class="dish-card reveal d3">
+          <div class="dish-media"><span class="dish-tag">Convenient</span><img src="assets/dishes/meal-prep.svg" alt="Weekly meal prep" /></div>
+          <h3 class="dish-name">Weekly Meal Prep</h3>
+          <p class="dish-es">Eat well, every day</p>
+          <p class="dish-desc">A week of fresh, chef-cooked meals portioned and stored — nutritious food ready when you are.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-box"></i> Per week</span><a href="services.html" class="link-arrow">Details <i class="fa-solid fa-arrow-right"></i></a></div>
+        </article>
+      </div>
+      <div class="center" style="margin-top:44px"><a href="services.html" class="btn btn--ghost btn--lg reveal">Compare all services <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section class="section" id="about">
+    <div class="container story-grid">
+      <div class="story-collage reveal-scale">
+        <div class="story-frame"><img src="assets/dishes/salmon.svg" alt="Chef-prepared dish" class="story-plate-main" /></div>
+        <div class="story-badge"><b>5.0★</b><span>rated by clients across Burlington</span></div>
+      </div>
+      <div class="story-text">
+        <span class="eyebrow reveal">Why Chefs in the Kitchen</span>
+        <h2 class="section-title reveal d1">Restaurant-quality, <em>made personal</em></h2>
+        <p class="story-quote reveal d2">"The best seat in the house is at your own table."</p>
+        <p class="reveal d2" style="color:var(--text-soft)">Skip the reservations, the traffic and the bill for two cocktails and valet. Our professional chefs bring technique, fresh ingredients and genuine hospitality straight to your kitchen — so every occasion feels effortless and special.</p>
+        <div class="story-features">
+          <div class="story-feature reveal d1"><span class="ic"><i class="fa-solid fa-utensils"></i></span><div><b>Professional chefs</b><p>Trained, experienced and passionate about great food.</p></div></div>
+          <div class="story-feature reveal d2"><span class="ic"><i class="fa-solid fa-leaf"></i></span><div><b>Menus built for you</b><p>Custom courses around your tastes, allergies &amp; occasion.</p></div></div>
+          <div class="story-feature reveal d3"><span class="ic"><i class="fa-solid fa-broom"></i></span><div><b>We clean up</b><p>Relax and enjoy — you won't touch a single dish.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="section--tight section--alt">
+    <div class="container">
+      <div class="stats">
+        <div class="stat reveal d1"><b><span data-count="5.0">0</span><span class="suffix">★</span></b><span>Client rating</span></div>
+        <div class="stat reveal d2"><b><span data-count="100">0</span><span class="suffix">%</span></b><span>Cooked in your home</span></div>
+        <div class="stat reveal d3"><b><span data-count="3">0</span></b><span>Chef experiences</span></div>
+        <div class="stat reveal d4"><b><span data-count="24">0</span><span class="suffix">h</span></b><span>Reply time</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section testimonials" id="reviews">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Kind Words</span>
+      <h2 class="section-title reveal d1">Guests remember <em>the whole night</em></h2>
+    </div>
+    <div class="container">
+      <div class="tst-viewport">
+        <div class="tst-track" id="tstTrack">
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span><div class="tst-stars">★★★★★</div>
+            <p class="tst-text">Booked a chef for our anniversary and it was better than any restaurant in the city. Incredible food, and we didn't lift a finger. We've already booked again.</p>
+            <div class="tst-author"><div class="tst-avatar">RA</div><div class="who"><b>Rachel A.</b><span>Anniversary dinner · Burlington</span></div></div>
+          </div></div>
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span><div class="tst-stars">★★★★★</div>
+            <p class="tst-text">Our dinner party guests are still talking about it. The chef was professional, the menu was stunning, and the kitchen was spotless when they left. Effortless hosting.</p>
+            <div class="tst-author"><div class="tst-avatar">MP</div><div class="who"><b>Michael P.</b><span>Dinner party · 8 guests</span></div></div>
+          </div></div>
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span><div class="tst-stars">★★★★★</div>
+            <p class="tst-text">The weekly meal prep changed our routine. Fresh, delicious, healthy meals ready to go — it's like having a personal chef on call. Worth every penny.</p>
+            <div class="tst-author"><div class="tst-avatar">JL</div><div class="who"><b>Jenna L.</b><span>Weekly meal prep</span></div></div>
+          </div></div>
+        </div>
+      </div>
+      <div class="tst-controls">
+        <button class="tst-arrow" id="tstPrev" aria-label="Previous review"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="tst-dots" id="tstDots"></div>
+        <button class="tst-arrow" id="tstNext" aria-label="Next review"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section--alt" id="gallery">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">On The Plate</span>
+      <h2 class="section-title reveal d1">A taste of <em>what's possible</em></h2>
+      <p class="section-lead reveal d2">Every menu is custom — here's a sample of the plates our chefs create.</p>
+    </div>
+    <div class="container">
+      <div class="gallery reveal">
+        <div class="gal-item tall" data-cap="Seared steak, red wine jus"><img src="assets/dishes/plated-steak.svg" alt="Plated steak" /><span class="gal-cap">Steak &amp; Jus</span></div>
+        <div class="gal-item" data-cap="Fresh pasta, house sauce"><img src="assets/dishes/pasta.svg" alt="Pasta" /><span class="gal-cap">Fresh Pasta</span></div>
+        <div class="gal-item" data-cap="Pan-seared salmon"><img src="assets/dishes/salmon.svg" alt="Salmon" /><span class="gal-cap">Salmon</span></div>
+        <div class="gal-item wide" data-cap="Fine-dining service at home"><img src="assets/dishes/cloche.svg" alt="Cloche service" /><span class="gal-cap">Plated Service</span></div>
+        <div class="gal-item" data-cap="Chocolate fondant &amp; berries"><img src="assets/dishes/dessert.svg" alt="Dessert" /><span class="gal-cap">Desserts</span></div>
+        <div class="gal-item" data-cap="Fresh weekly meal prep"><img src="assets/dishes/meal-prep.svg" alt="Meal prep" /><span class="gal-cap">Meal Prep</span></div>
+      </div>
+      <div class="center" style="margin-top:34px"><a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener" class="btn btn--ghost reveal"><i class="fa-brands fa-facebook-f"></i> See more on Facebook</a></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal-scale">
+        <h2>Ready to dine in?</h2>
+        <p>Tell us about your occasion and we'll match you with the perfect chef and menu — with a friendly quote within 24 hours.</p>
+        <div class="hero-ctas">
+          <a href="book.html#quote" class="btn btn--lg"><i class="fa-solid fa-utensils"></i> Book Your Chef</a>
+          <a href="services.html" class="btn btn--ghost btn--lg">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" class="brand-logo-f" />
+          <p>A professional private chef, in your kitchen. We shop, cook &amp; clean up — restaurant-quality dining at home across Burlington &amp; the GTA.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:hello@chefsinthekitchen.ca" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://chefsinthekitchen.ca" target="_blank" rel="noopener" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="book.html">Book a Chef</a><a href="book.html#faq">FAQ</a></div>
+        </div>
+        <div>
+          <h4>Experiences</h4>
+          <div class="footer-links"><a href="services.html">In-Home Dinner</a><a href="services.html">Dinner Party</a><a href="services.html">Weekly Meal Prep</a><a href="book.html">Special Occasions</a></div>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact">
+            <a href="mailto:hello@chefsinthekitchen.ca"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+            <span><i class="fa-solid fa-location-dot"></i> Burlington, ON &amp; the Greater Toronto Area</span>
+            <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i> Chefs in the Kitchen</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Chefs in the Kitchen. Private chef service · Burlington, ON.</span>
+        <span>In-Home Dining · Dinner Parties · Meal Prep</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-nav prev" id="lbPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lightbox-nav next" id="lbNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+    <div><img id="lbImg" src="assets/dishes/plated-steak.svg" alt="" /><div class="lightbox-cap" id="lbCap"></div></div>
+  </div>
+
+  <a href="book.html#quote" class="fab-cta" aria-label="Book your chef"><i class="fa-solid fa-utensils"></i><span>Book Your Chef</span></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

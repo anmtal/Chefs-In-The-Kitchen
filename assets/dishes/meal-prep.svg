@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Weekly meal prep containers">
+  <ellipse cx="100" cy="156" rx="76" ry="14" fill="#000" opacity="0.3"/>
+  <!-- container 1 (back) -->
+  <g transform="translate(0,-4)">
+    <rect x="44" y="70" width="112" height="30" rx="8" fill="#2A2A2E"/>
+    <rect x="44" y="66" width="112" height="10" rx="5" fill="#3A3A40"/>
+  </g>
+  <!-- container 2 (middle) with food -->
+  <rect x="40" y="98" width="120" height="34" rx="9" fill="#E9E3D8"/>
+  <rect x="40" y="98" width="120" height="34" rx="9" fill="none" stroke="#D3CBBC" stroke-width="1.5"/>
+  <!-- 3 food compartments -->
+  <g>
+    <rect x="48" y="104" width="32" height="22" rx="4" fill="#8A4A28"/>
+    <g stroke="#743F24" stroke-width="2" opacity="0.6"><path d="M52 110 h24"/><path d="M52 116 h24"/></g>
+    <rect x="84" y="104" width="30" height="22" rx="4" fill="#EBC15E"/>
+    <g fill="#D9A93F"><circle cx="92" cy="112" r="2"/><circle cx="104" cy="118" r="2"/><circle cx="98" cy="110" r="2"/></g>
+    <rect x="118" y="104" width="34" height="22" rx="4" fill="#5E8C46"/>
+    <g fill="#4E7A3A"><circle cx="126" cy="112" r="2.4"/><circle cx="138" cy="117" r="2.4"/><circle cx="144" cy="110" r="2.2"/></g>
+  </g>
+  <!-- container 3 (front) -->
+  <rect x="48" y="130" width="104" height="30" rx="8" fill="#33333A"/>
+  <rect x="48" y="126" width="104" height="10" rx="5" fill="#43434B"/>
+  <!-- red label -->
+  <rect x="86" y="138" width="28" height="14" rx="3" fill="#E23A2E"/>
+  <path d="M92 145 h16" stroke="#fff" stroke-width="2" opacity="0.8"/>
+  <!-- steam -->
+  <g stroke="#8A857C" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M80 92 q-5 -8 0 -16"/><path d="M100 90 q-5 -8 0 -16"/><path d="M120 92 q5 -8 0 -16"/>
+  </g>
+</svg>

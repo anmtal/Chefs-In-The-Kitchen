@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Chef | Chefs in the Kitchen — Private Chef, Burlington</title>
+  <meta name="description" content="Book a private chef with Chefs in the Kitchen. Choose your experience, tell us your tastes, and get a personalized quote for in-home dining, dinner parties or meal prep in Burlington & the GTA." />
+  <meta name="theme-color" content="#141416" />
+  <meta property="og:title" content="Book a Chef | Chefs in the Kitchen" />
+  <meta property="og:description" content="Book a private chef for in-home dining, dinner parties or weekly meal prep. Get a quote in 24 hours." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500..700;1,500..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much notice do you need?", "acceptedAnswer": { "@type": "Answer", "text": "We recommend booking at least a week ahead, especially for weekends. We'll always try to accommodate shorter notice when a chef is available." } },
+      { "@type": "Question", "name": "Do you shop for the ingredients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Grocery shopping for fresh, quality ingredients is included in every booking." } },
+      { "@type": "Question", "name": "Do you clean up afterwards?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Your chef leaves the kitchen clean — you won't touch a single dish." } },
+      { "@type": "Question", "name": "What areas do you serve?", "acceptedAnswer": { "@type": "Answer", "text": "We serve Burlington and the surrounding Greater Toronto Area, including Oakville and Hamilton." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Chefs in the Kitchen home">
+        <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" class="brand-logo" />
+        <span class="brand-name"><b>Chefs in the Kitchen</b><small>Private Chef · Burlington</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="book.html" class="active">Book</a>
+        <a href="book.html#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="mailto:hello@chefsinthekitchen.ca" class="nav-phone"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+        <a href="#quote" class="btn btn--sm">Book Your Chef</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE DRAWER ============ -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="mobile-drawer" id="drawer" aria-label="Mobile menu">
+    <div class="drawer-head">
+      <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" style="height:44px" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav>
+      <a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="services.html">Services <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="book.html" class="active">Book <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="book.html#faq">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+    </nav>
+    <div class="drawer-cta">
+      <a href="#quote" class="btn btn--block">Book Your Chef</a>
+      <a href="services.html" class="btn btn--ghost btn--block">View Services</a>
+    </div>
+    <div class="drawer-contact">
+      <a href="mailto:hello@chefsinthekitchen.ca"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+      <span><i class="fa-solid fa-location-dot"></i> Burlington &amp; the GTA</span>
+      <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i> Chefs in the Kitchen</a>
+    </div>
+  </aside>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumbs reveal"><a href="index.html">Home</a> <span>/</span> <span>Book</span></div>
+      <span class="eyebrow eyebrow--center reveal d1" style="margin-top:14px">Book a Chef</span>
+      <h1 class="reveal d1">Reserve your <span class="text-red">private chef</span></h1>
+      <p class="reveal d2">Answer a few quick questions and we'll send a personalized quote within 24 hours. No obligation — just great food, made easy.</p>
+    </div>
+  </section>
+
+  <!-- ============ BOOKING FORM ============ -->
+  <section class="section" id="quote" style="padding-top:16px">
+    <div class="container">
+      <div class="quote-wrap">
+        <div class="quote-side reveal">
+          <span class="eyebrow" style="color:var(--red)">Your Estimate</span>
+          <h2 style="margin-top:14px">Restaurant nights, <em style="font-style:italic;color:var(--red)">at home</em></h2>
+          <p>Tell us the essentials and we'll follow up with a tailored menu and quote.</p>
+          <div class="quote-benefits">
+            <div class="quote-benefit"><i class="fa-solid fa-bolt"></i><div><b>24-hour reply</b><span>A friendly quote, fast.</span></div></div>
+            <div class="quote-benefit"><i class="fa-solid fa-utensils"></i><div><b>Fully custom menu</b><span>Built around your tastes &amp; diet.</span></div></div>
+            <div class="quote-benefit"><i class="fa-solid fa-broom"></i><div><b>We clean up</b><span>You just relax and enjoy.</span></div></div>
+          </div>
+          <div class="quote-live">
+            <div class="quote-live-card">
+              <div class="label">Estimated investment</div>
+              <div class="est" id="estAmount">—</div>
+              <small>≈ $<span id="estPer">65</span> per guest · <span id="guestVal">4</span> guests · sample pricing</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote-form reveal d1">
+          <form id="quoteForm" novalidate>
+            <div class="form-body">
+              <div class="stepper">
+                <div class="st active"><span class="n">1</span><span class="t">Occasion</span><span class="bar"></span></div>
+                <div class="st"><span class="n">2</span><span class="t">Taste</span><span class="bar"></span></div>
+                <div class="st"><span class="n">3</span><span class="t">Details</span></div>
+              </div>
+
+              <!-- STEP 1 -->
+              <div class="fstep active">
+                <div class="field">
+                  <label>What's the occasion? <span class="req">*</span></label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Date night" /><span><i class="fa-solid fa-heart"></i> Date night</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Dinner party" /><span><i class="fa-solid fa-users"></i> Dinner party</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Special occasion" /><span><i class="fa-solid fa-cake-candles"></i> Celebration</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Weekly meal prep" /><span><i class="fa-solid fa-box"></i> Meal prep</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Other" /><span><i class="fa-solid fa-star"></i> Other</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="eventDate">Preferred date</label>
+                  <input type="date" id="eventDate" name="eventDate" />
+                </div>
+                <div class="field">
+                  <label for="guests">How many guests?</label>
+                  <div class="range-wrap">
+                    <div class="range-head"><span style="color:var(--text-soft);font-size:.9rem">Slide to set your party size</span><span class="range-val"><span id="guestValLabel">4</span> <span>guests</span></span></div>
+                    <input type="range" id="guests" name="guests" min="2" max="30" step="1" value="4" />
+                    <div class="range-scale"><span>2</span><span>16</span><span>30+</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 2 -->
+              <div class="fstep">
+                <div class="field">
+                  <label>Which experience?</label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="radio" name="pkg" value="dinner" checked /><span>In-Home Dinner · $65</span></label>
+                    <label class="chip-opt"><input type="radio" name="pkg" value="party" /><span>Dinner Party · $95</span></label>
+                    <label class="chip-opt"><input type="radio" name="pkg" value="mealprep" /><span>Meal Prep · $40</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label>What do you love? <span style="color:var(--text-soft);font-weight:400">(pick any)</span></label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Steak & grill" /><span>Steak &amp; grill</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Seafood" /><span>Seafood</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Pasta" /><span>Pasta</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Vegetarian / vegan" /><span>Vegetarian</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Desserts" /><span>Desserts</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Has allergies / dietary" /><span>Allergies / dietary</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="notes">Anything else? <span style="color:var(--text-soft);font-weight:400">(allergies, theme, favourite dishes)</span></label>
+                  <textarea id="notes" name="message" placeholder="e.g. surprise anniversary dinner, my partner is pescatarian…"></textarea>
+                </div>
+              </div>
+
+              <!-- STEP 3 -->
+              <div class="fstep">
+                <div class="field-row">
+                  <div class="field"><label for="name">Your name <span class="req">*</span></label><input type="text" id="name" name="name" required placeholder="Full name" /></div>
+                  <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="Optional" /></div>
+                </div>
+                <div class="field"><label for="email">Email <span class="req">*</span></label><input type="email" id="email" name="email" required placeholder="you@email.com" /></div>
+                <input type="text" class="hp" name="companyWebsite" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                <p style="font-size:.86rem;color:var(--text-soft);margin-top:6px"><i class="fa-solid fa-lock" style="color:var(--red)"></i> Your details stay private — used only to prepare your quote.</p>
+              </div>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn--ghost hidden" id="fBack"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                <button type="button" class="btn" id="fNext">Continue <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="submit" class="btn" id="fSubmit" style="display:none"><i class="fa-solid fa-paper-plane"></i> Send My Request</button>
+              </div>
+            </div>
+
+            <div class="form-success" id="formSuccess">
+              <div class="check"><i class="fa-solid fa-check"></i></div>
+              <h3>Thank you — your request is ready</h3>
+              <p>One last step: tap below to send your details to the chef. We'll reply with a personalized menu &amp; quote within 24 hours.</p>
+              <div class="hero-ctas" style="justify-content:center">
+                <a href="#" id="successEmail" class="btn btn--lg"><i class="fa-solid fa-paper-plane"></i> Send to the Chef</a>
+                <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener" class="btn btn--ghost btn--lg"><i class="fa-brands fa-facebook-f"></i> Message on Facebook</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--alt" id="faq">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Good to Know</span>
+      <h2 class="section-title reveal d1">Frequently asked <em>questions</em></h2>
+    </div>
+    <div class="container">
+      <div class="faq">
+        <div class="faq-item reveal">
+          <button class="faq-q">How much notice do you need? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>We recommend booking <strong>at least a week ahead</strong>, especially for weekends. That said, we'll always try to accommodate shorter notice when a chef is available — just ask.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Do you shop for the ingredients? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Yes — <strong>grocery shopping is included</strong> in every booking. Your chef sources fresh, quality ingredients so you don't have to lift a finger.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Do you clean up afterwards? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Always. Your chef leaves the <strong>kitchen spotless</strong> — cooking, plating and cleanup are all handled. You simply enjoy the meal.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Can you handle allergies &amp; dietary needs? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Definitely. We build menus around <strong>vegetarian, vegan, gluten-free</strong> and allergy-conscious needs. Just tell us in your request and we'll tailor everything.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">What do I need to provide? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Just your kitchen and tableware. Your chef brings the expertise, tools of the trade and the ingredients — and works with whatever space you have.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">What areas do you serve? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>We're based in <strong>Burlington</strong> and serve the surrounding Greater Toronto Area, including Oakville and Hamilton. Outside the area? Reach out — we may still be able to help.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--tight">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Reach Us</span>
+      <h2 class="section-title reveal d1">Prefer to just <em>say hello?</em></h2>
+      <p class="section-lead reveal d2">However you like to connect, we're happy to talk food.</p>
+    </div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-card reveal d1"><div class="ic"><i class="fa-solid fa-envelope"></i></div><h3>Email</h3><p>The best way to reach us</p><a href="mailto:hello@chefsinthekitchen.ca">hello@chefsinthekitchen.ca</a></div>
+        <div class="contact-card reveal d2"><div class="ic"><i class="fa-brands fa-facebook-f"></i></div><h3>Facebook</h3><p>See our latest dishes</p><a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener">Chefs in the Kitchen</a></div>
+        <div class="contact-card reveal d3"><div class="ic"><i class="fa-solid fa-location-dot"></i></div><h3>Service Area</h3><p>Based in Burlington, serving the</p><a href="#">Greater Toronto Area</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo-mark.png" alt="Chefs in the Kitchen" class="brand-logo-f" />
+          <p>A professional private chef, in your kitchen. We shop, cook &amp; clean up — restaurant-quality dining at home across Burlington &amp; the GTA.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:hello@chefsinthekitchen.ca" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://chefsinthekitchen.ca" target="_blank" rel="noopener" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="book.html">Book a Chef</a><a href="book.html#faq">FAQ</a></div>
+        </div>
+        <div>
+          <h4>Experiences</h4>
+          <div class="footer-links"><a href="services.html">In-Home Dinner</a><a href="services.html">Dinner Party</a><a href="services.html">Weekly Meal Prep</a><a href="book.html">Special Occasions</a></div>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact">
+            <a href="mailto:hello@chefsinthekitchen.ca"><i class="fa-solid fa-envelope"></i> hello@chefsinthekitchen.ca</a>
+            <span><i class="fa-solid fa-location-dot"></i> Burlington, ON &amp; the Greater Toronto Area</span>
+            <a href="https://www.facebook.com/chefsinthekitchen.official/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i> Chefs in the Kitchen</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Chefs in the Kitchen. Private chef service · Burlington, ON.</span>
+        <span>In-Home Dining · Dinner Parties · Meal Prep</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#quote" class="fab-cta" aria-label="Book your chef"><i class="fa-solid fa-utensils"></i><span>Book Your Chef</span></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

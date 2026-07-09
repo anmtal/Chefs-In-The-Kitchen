@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plated salmon fillet">
+  <circle cx="100" cy="105" r="88" fill="#000" opacity="0.35"/>
+  <circle cx="100" cy="100" r="88" fill="#FBF8F3"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#EBE4D8" stroke-width="4"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#F0EAE0" stroke-width="2"/>
+  <!-- lemon-butter swoosh -->
+  <path d="M44 118 q34 -16 64 -6 q24 8 50 -4 q-16 20 -48 16 q-38 -4 -66 -6 z" fill="#F0D77E" opacity="0.6"/>
+  <!-- salmon fillet -->
+  <g transform="rotate(-12 96 100)">
+    <path d="M62 100 q34 -22 68 0 q-34 22 -68 0 z" fill="#E8825A"/>
+    <path d="M62 100 q34 -18 68 0 q-34 18 -68 0 z" fill="#EE936C"/>
+    <g stroke="#F6C3A6" stroke-width="3" opacity="0.8"><path d="M74 100 q22 -8 44 0"/><path d="M78 100 q18 -5 38 0"/><path d="M82 100 q14 -3 30 0"/></g>
+    <!-- crispy skin edge -->
+    <path d="M62 100 q34 8 68 0" stroke="#8A4A28" stroke-width="4" fill="none"/>
+  </g>
+  <!-- asparagus -->
+  <g stroke="#5E8C46" stroke-width="6" stroke-linecap="round"><path d="M118 118 l22 -18"/><path d="M114 124 l22 -18"/></g>
+  <g fill="#4E7A3A"><path d="M140 100 l4 -5 l4 5 l-4 5 z"/><path d="M136 106 l4 -5 l4 5 l-4 5 z"/></g>
+  <!-- lemon wedge -->
+  <path d="M64 76 a14 14 0 0 1 12 10 l-14 4 z" fill="#EBC94E"/>
+  <path d="M65 79 a9 9 0 0 1 8 7 l-9 3 z" fill="#F4E28C"/>
+  <!-- dill + sauce dots -->
+  <g fill="#6AA34A"><circle cx="100" cy="72" r="2.6"/><circle cx="108" cy="76" r="2.2"/></g>
+  <g fill="#C6291F"><circle cx="150" cy="120" r="2.6"/><circle cx="56" cy="104" r="2.4"/></g>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plated dessert">
+  <circle cx="100" cy="105" r="88" fill="#000" opacity="0.35"/>
+  <circle cx="100" cy="100" r="88" fill="#FBF8F3"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#EBE4D8" stroke-width="4"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#F0EAE0" stroke-width="2"/>
+  <!-- berry coulis swoosh -->
+  <path d="M42 116 q34 -18 66 -6 q24 8 50 -6 q-16 22 -48 18 q-40 -4 -68 -6 z" fill="#B01E3C" opacity="0.85"/>
+  <g fill="#8A1530" opacity="0.5"><circle cx="60" cy="112" r="2.4"/><circle cx="150" cy="118" r="2.4"/></g>
+  <!-- chocolate fondant -->
+  <ellipse cx="92" cy="104" rx="26" ry="22" fill="#3A2318"/>
+  <ellipse cx="92" cy="98" rx="26" ry="20" fill="#4A2E1E"/>
+  <ellipse cx="92" cy="94" rx="20" ry="12" fill="#5A3826"/>
+  <!-- molten centre -->
+  <ellipse cx="92" cy="94" rx="8" ry="5" fill="#7A4A2E"/>
+  <path d="M92 94 q6 8 2 18" stroke="#3A2318" stroke-width="3" fill="none" opacity="0.5"/>
+  <!-- dusting -->
+  <g fill="#F6EFDB" opacity="0.7"><circle cx="84" cy="82" r="1.6"/><circle cx="96" cy="80" r="1.4"/><circle cx="104" cy="86" r="1.4"/></g>
+  <!-- raspberry -->
+  <g transform="translate(124,102)"><circle cx="0" cy="0" r="8" fill="#C0223F"/><g fill="#9A1631"><circle cx="-3" cy="-3" r="2"/><circle cx="3" cy="-3" r="2"/><circle cx="0" cy="0" r="2"/><circle cx="-3" cy="3" r="2"/><circle cx="3" cy="3" r="2"/></g></g>
+  <!-- mint -->
+  <path d="M120 84 q10 -6 16 0 q-8 8 -16 0 z" fill="#4E7A3A"/>
+  <!-- gold quenelle (cream) -->
+  <ellipse cx="76" cy="126" rx="14" ry="8" fill="#F3E7C8" transform="rotate(-16 76 126)"/>
+</svg>
