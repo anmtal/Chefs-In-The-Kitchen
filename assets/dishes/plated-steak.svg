@@ -1,23 +1,52 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plated steak main course">
-  <circle cx="100" cy="105" r="88" fill="#000" opacity="0.35"/>
-  <circle cx="100" cy="100" r="88" fill="#FBF8F3"/>
-  <circle cx="100" cy="100" r="88" fill="none" stroke="#EBE4D8" stroke-width="4"/>
-  <circle cx="100" cy="100" r="70" fill="none" stroke="#F0EAE0" stroke-width="2"/>
-  <!-- red jus swoosh -->
-  <path d="M40 122 q34 -20 66 -8 q26 10 52 -4 q-16 22 -50 18 q-40 -4 -68 -6 z" fill="#C6291F" opacity="0.85"/>
-  <path d="M46 120 q30 -14 58 -6" stroke="#8E1B14" stroke-width="2" fill="none" opacity="0.6"/>
-  <!-- steak medallion -->
-  <ellipse cx="94" cy="100" rx="36" ry="27" fill="#5A3320"/>
-  <ellipse cx="94" cy="95" rx="36" ry="24" fill="#743F24"/>
-  <ellipse cx="94" cy="91" rx="30" ry="17" fill="#8A4A28"/>
-  <ellipse cx="94" cy="88" rx="20" ry="9" fill="#A45C34" opacity="0.8"/>
-  <!-- grill marks -->
-  <g stroke="#4A2A18" stroke-width="2.4" opacity="0.7"><path d="M74 86 l16 10"/><path d="M86 82 l16 10"/><path d="M98 84 l14 9"/></g>
-  <!-- micro greens / garnish -->
-  <g stroke="#4E7A3A" stroke-width="2" stroke-linecap="round" fill="none"><path d="M120 78 q6 -12 2 -20"/><path d="M126 82 q10 -6 18 -8"/><path d="M116 76 q-2 -12 -8 -18"/></g>
-  <g fill="#6AA34A"><circle cx="120" cy="60" r="3"/><circle cx="140" cy="72" r="2.6"/><circle cx="108" cy="58" r="2.6"/></g>
-  <!-- roasted tomato -->
-  <circle cx="132" cy="112" r="9" fill="#D33A2C"/><circle cx="128" cy="108" r="3" fill="#E86B5C" opacity="0.7"/>
-  <!-- sauce dots -->
-  <g fill="#C6291F"><circle cx="60" cy="96" r="3"/><circle cx="150" cy="126" r="2.6"/></g>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Seared sliced steak with red wine jus">
+  <defs>
+    <radialGradient id="plateG" cx="42%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.7" stop-color="#FBF8F2"/>
+      <stop offset="1" stop-color="#EFE9DD"/>
+    </radialGradient>
+    <linearGradient id="meatG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D98A72"/>
+      <stop offset="0.5" stop-color="#C4695A"/>
+      <stop offset="1" stop-color="#A94E45"/>
+    </linearGradient>
+  </defs>
+  <!-- plate -->
+  <circle cx="100" cy="100" r="88" fill="url(#plateG)"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#E7E0D2" stroke-width="3"/>
+  <circle cx="100" cy="100" r="71" fill="none" stroke="#EFE9DD" stroke-width="2"/>
+  <circle cx="100" cy="100" r="66" fill="none" stroke="#F4EFE6" stroke-width="6" opacity="0.6"/>
+  <!-- red wine jus -->
+  <path d="M46 120 q30 -14 60 -6 q26 8 52 -8 q-8 24 -46 22 q-44 -2 -66 -8 z" fill="#7C1A18"/>
+  <path d="M52 118 q28 -10 56 -4 q22 6 44 -6" fill="none" stroke="#5A110F" stroke-width="2" opacity="0.5"/>
+  <g fill="#7C1A18"><circle cx="150" cy="128" r="3.4"/><circle cx="158" cy="120" r="2.2"/><circle cx="52" cy="106" r="2.6"/></g>
+  <!-- sliced steak fan -->
+  <g transform="rotate(-24 100 100)">
+    <g stroke="#35211A" stroke-width="4" stroke-linejoin="round">
+      <rect x="58" y="86" width="26" height="40" rx="11" fill="url(#meatG)"/>
+      <rect x="74" y="84" width="26" height="42" rx="11" fill="url(#meatG)"/>
+      <rect x="90" y="83" width="26" height="43" rx="11" fill="url(#meatG)"/>
+      <rect x="106" y="84" width="26" height="42" rx="11" fill="url(#meatG)"/>
+      <rect x="122" y="86" width="26" height="40" rx="11" fill="url(#meatG)"/>
+    </g>
+    <!-- rosy centres -->
+    <g fill="#C05348" opacity="0.55">
+      <ellipse cx="71" cy="106" rx="6" ry="13"/><ellipse cx="87" cy="105" rx="6" ry="14"/>
+      <ellipse cx="103" cy="104" rx="6" ry="14"/><ellipse cx="119" cy="105" rx="6" ry="14"/><ellipse cx="135" cy="106" rx="6" ry="13"/>
+    </g>
+    <!-- seared highlights -->
+    <g fill="#E7A992" opacity="0.6"><rect x="62" y="90" width="18" height="4" rx="2"/><rect x="94" y="87" width="18" height="4" rx="2"/><rect x="126" y="90" width="18" height="4" rx="2"/></g>
+  </g>
+  <!-- herb butter + rosemary -->
+  <ellipse cx="104" cy="74" rx="9" ry="6" fill="#F0D98A" transform="rotate(-18 104 74)"/>
+  <path d="M116 70 l22 -14" stroke="#3E6B2E" stroke-width="2.4" stroke-linecap="round"/>
+  <g stroke="#4E7A3A" stroke-width="1.8" stroke-linecap="round"><path d="M120 67 l5 -6"/><path d="M126 63 l5 -6"/><path d="M132 60 l5 -6"/><path d="M122 71 l6 -3"/><path d="M128 67 l6 -3"/></g>
+  <!-- roasted garnish (baby potatoes) -->
+  <g>
+    <ellipse cx="68" cy="126" rx="12" ry="9" fill="#C98B4E"/><ellipse cx="66" cy="123" rx="6" ry="4" fill="#E0AA6C" opacity="0.7"/>
+    <ellipse cx="80" cy="132" rx="10" ry="8" fill="#BC7F44"/>
+  </g>
+  <g stroke="#4E7A3A" stroke-width="1.6" fill="none"><path d="M68 118 q-2 -6 -6 -8"/><path d="M80 124 q2 -6 6 -7"/></g>
+  <!-- micro greens -->
+  <g fill="#6AA34A"><circle cx="98" cy="62" r="2.6"/><circle cx="88" cy="66" r="2.2"/></g>
 </svg>
