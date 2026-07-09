@@ -65,10 +65,11 @@ needed. Set `CONFIG.endpoint` to also push leads to a CRM/inbox
 - Type: *Playfair Display* (display) + *Inter* (UI).
 
 ### Photos & placeholders
-- Dishes are hand-drawn **SVG illustrations** in `assets/dishes/` (brand palette) — swap
-  for real photos anytime by dropping images in and updating the `<img>` references.
+- The site uses **real sample food photography** in `assets/photos/` (dark, on-theme).
+  These are royalty-free stock placeholders — swap them for the client's own photos any
+  time by replacing the files (keep the same filenames) or updating the `<img>` references.
 - **Placeholder content to confirm before launch:** email, phone, menu/package prices
-  (sample), and testimonials (replace with real client reviews).
+  (sample), testimonials (replace with real client reviews), and the sample photos.
 
 ---
 
